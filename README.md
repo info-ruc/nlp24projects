@@ -8,10 +8,10 @@
 │  2021200123.md
 │
 └─src
-    │  data path.md
-    │  model path.md
-    │  try-Copy1.ipynb
-    │  try.ipynb
+    │  data_path.md
+    │  model_path.md
+    │  poems-model-train.ipynb
+    │  poetry-model-train.ipynb
     │
     ├─.ipynb_checkpoints（train checkpoints）
     ├─logs（train logs）
