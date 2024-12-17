@@ -15,8 +15,16 @@
         |-- test3.png
     |-- src
         |-- dataset
-            |-- cn
-            |-- us
+            |-- data.csv
+            |-- ielts_dictionary.pkl
+            |-- model_tr.pkl
+            |-- model_cc.pkl
+            |-- model_lr.pkl
+            |-- model_ga.pkl
+            |-- pca_model.pkl
+            |-- scaler_model.pkl
+            |-- y_1130.csv
+            |-- large_dataset_path.txt
         |-- scripts
             |-- get_data.ipynb
             |-- demo.ipynb

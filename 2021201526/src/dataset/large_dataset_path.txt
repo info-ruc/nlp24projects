@@ -1,0 +1,13 @@
+articleEB.
+pooled_article.csv
+problem_EB.csv
+problemEB_pca.csv
+summary_EB.csv
+X_1210.csv
+
+Download Link: https://pan.baidu.com/s/1glIzDDn-SDmf0hkHhEYXmw?pwd=LJX3 
+Access Code: LJX3
+
+Description: 
+    (1) Embeddings for problems, essays, and summaries of the project;
+    (2) Final dataset X for XGBoost training.
