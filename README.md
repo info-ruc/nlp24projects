@@ -1,25 +1,26 @@
-# nlp24projects
+# experiment report
 
-reports collected for NLP class project @2024
+[2021200123](./2021200123/2021200123.md)
 
-# Report Naming Convension
+# project file
 ```
-2023201512
-  ┃
-  ┗ experiment report (2023201512.md / 2023201512.tex / ...)
-  ┃
-  ┗ src
-    ┃
-    ┗ scripts(experiment scripts in Matlab / Python / ...)
-    ┗ dataset(if over 100MB, use netdisk url)
-    ┗ paper(OPTIONAL, share paper with info.ruc@163.com on overleaf)  
+2021200123
+│  2021200123.md
+│
+└─src
+    │  data_path.md
+    │  model_path.md
+    │  poems-model-train.ipynb
+    │  poetry-model-train.ipynb
+    │
+    ├─.ipynb_checkpoints（train checkpoints）
+    ├─logs（train logs）
+    └─old version（RNN）
+            data path.md
+            poem.ipynb
+            poem_generator_rnn
+            poem_generator_rnn_song
+            poem_generator_rnn_tang)  
 ```
 
-# Submit your project
-[How to](./Submission-Howto.md)
-
-# Submission Deadline
-- Stage I: 2024/10
-- Stage II: 2024/11
-- Stage III: 2024/12
 
