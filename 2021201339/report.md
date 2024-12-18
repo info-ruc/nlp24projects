@@ -173,14 +173,14 @@ It is important to note that the impact of radioactivity on organisms can vary w
 
 示例：
 训练中包含数据：
-> Put the ball on the blue plate.
+> Put the ball on the blue plate. \
 得到的动作准确率为97.35%
 
-> Pick up the ball and place it on the blue plate.
-> Lift the ball and put it on the blue plate.
-> Move the ball to the blue plate.
-> Take the ball up and lay it on the blue plate.
-> ...
+> Pick up the ball and place it on the blue plate. \
+> Lift the ball and put it on the blue plate. \
+> Move the ball to the blue plate. \
+> Take the ball up and lay it on the blue plate. \
+> ... \
 得到的动作准确率20.3%
 
 因此，在具身智能领域，优化提示词，提升模型对语言的理解能力，能够提升模型的表现。
