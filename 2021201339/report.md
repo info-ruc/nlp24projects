@@ -97,7 +97,7 @@ BPO 中的常见优化策略包括增强推理解释、精炼用户查询、突�
 loss计算如下：
 $\mathcal{L} = -\frac{1}{N} \sum_{t=1}^{N} \log P(x_t \mid X_{\text{user}}, x_{<t})$
 
-其中：$ N $ 是 4 X_{\text{opt}} $ 的长度，$ x_t $ 代表第 $ t $ 个token。
+其中：$N$ 是 $X_{\text{opt}}$ 的长度，$x_t$ 代表第 $t$ 个token。
 
 训练参数：
 - 学习率：$2e-5$
