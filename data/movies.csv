@@ -1,0 +1,4 @@
+id,title,description,rating,poster_path,audio_path
+1,Inception,A thief who enters the dreams of others.,4.5,images/inception.jpg,audio/inception.wav
+2,Avatar,A marine on an alien planet.,4.8,images/avatar.jpg,audio/avatar.wav
+3,Titanic,A love story on the ill-fated ship.,4.7,images/titanic.jpg,audio/titanic.wav
