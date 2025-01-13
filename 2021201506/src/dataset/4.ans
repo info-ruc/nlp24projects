@@ -1,0 +1,11 @@
+POST /v1/05a86ccd57704ddbb96c66230646f286/cloudservers/delete
+
+{
+    "servers": [
+        {
+            "id": "616fb98f-46ca-475e-917e-2563e5a8cd19"
+        }
+    ], 
+    "delete_publicip": false, 
+    "delete_volume": false
+}
