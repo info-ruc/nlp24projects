@@ -1,0 +1,62 @@
+POST /v1.1/05a86ccd57704ddbb96c66230646f286/cloudservers
+
+{
+    "server": {
+        "availability_zone":"az1-dc1",
+        "name": "newserver", 
+        "imageRef": "67f433d8-ed0e-4321-a8a2-a71838539e09", 
+        "root_volume": {
+            "volumetype": "SSD"
+        }, 
+        "data_volumes": [
+            {
+                "volumetype": "SSD", 
+                "size": 100
+            }, 
+            {
+                "volumetype": "SSD", 
+                "size": 100,
+                "multiattach": true,
+                "hw:passthrough": true
+            }
+        ], 
+        "flavorRef": "s2.small.1", 
+        "vpcid": "2a6f4aa6-d93e-45f5-a8cb-b030dbf8cd68", 
+        "security_groups": [
+            {
+                "id": "6242ef48-4d35-49c8-8711-a6e54902e44a"
+            }
+        ], 
+        "nics": [
+            {
+                "subnet_id": "ef039b60-6a14-42d1-963b-687b627fea08"
+            }
+        ], 
+        "publicip": {
+            "eip": {
+                "iptype": "5_sbgp",
+                "bandwidth": {
+                    "size": 1, 
+                    "sharetype": "PER"
+                }
+            }
+        }, 
+        "key_name": "id_rsa", 
+        "count": 1, 
+        "metadata": {
+            "op_svc_userid": "f79791beca3c48159ac2553fff22e166"
+        },
+        "extendparam": { 
+            "chargingMode": "prePaid",
+            "periodType": "month",
+            "periodNum": 1,
+            "isAutoRenew": "true",
+            "isAutoPay": "true",
+            "enterprise_project_id": "f8e0ecc8-3825-4ee8-9596-fb4258ffdcbb"
+        },
+        "os:scheduler_hints": {
+          "group": "cdbbfffe-ef18-47b4-a5c8-f61a984c0ecc"
+        }
+        
+    }
+}
