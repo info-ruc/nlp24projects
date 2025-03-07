@@ -1,0 +1,7 @@
+PUT /v1/05a86ccd57704ddbb96c66230646f286/cloudservers/4f4b3dfa-eb70-47cf-a60a-998a53bd598a
+
+{
+    "server": {
+        "name": "new-server-test"
+    }
+}
